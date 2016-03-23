@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Modele Devoxx FR 2016 reveal.js</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/devoxxfr1.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-state="intro">
+					<h1>Devoxx France 2016 sample presentation</h1>
+					<p>Nicolas Martignole <a href="http://twitter.com/nmartignole">@nmartognole</a></p>
+					<p>Zouheir Cadi <a href="http://twitter.com/zouheircadi">@zouheircadi</a></p>
+					<p>Antonio Goncalves <a href="http://twitter.com/agoncal">@agoncal</a></p>
+				</section>
+				<section data-state="intro">
+					<h1>Welcome to Devoxx France</h1>
+					<p>This is a template created inspired from Power Point template</p>
+					<p>Format 4/3</p>
+				</section>
+				<section data-state="intro content" align="center">
+					<h1>We love picture</h1>
+					<img data-src="slide_3_we_love_picture.jpg" width="70%" style="display:block;margin-left:auto;margin-right:auto;" />
+					<p>We try to keep the Devoxx France logo and the Tweet hashtag on all slides</p>
+				</section>
+				<section data-state="topbanner">
+					<h2>Roadmap</h2>
+					<p>This is a slide without background images.</p>
+					<p>You must load and install 2 Fonts on your system :
+						<ul>
+							<li>Montserrat</li>
+							<li>Open Sans</li>
+						</ul>
+					</p>
+				</section>
+				<section data-state="topbanner">
+					<h2>Devoxx FR 2016 colors</h2>
+					<p>main color, purple, #2a013b <span class="main">purple</span></p>
+					<p>secondary color, #b10142, <span class="secondary">dark pink</span></p>
+					<p>third color, smoke white #eeeeee <span class="third">white smoke</span></p>
+					<p>fourth color, dark purple #10001a <span class="fourth">dark purple</span></p>
+				</section>
+				<section data-state="topbanner">
+					<h3>&nbsp;</h3>
+					<p class="code">Show me some code !</p>
+					<p class="code">Try to keep a font size as big as possible. Remember also that too much code on one slide is useless. The audience reads this texte and does not listen to your presentation anymore. Try to split on different slides your presentation.</p>
+				</section>
+				<section data-transition="none"  data-state="topbanner">
+					<h3>Step 1 : add to Redis sorted set</h3>
+					<pre><code data-trim data-noescape>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]> 
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing" 
+(integer) 1</code></pre>
+				</section>
+				<section data-transition="none"  data-state="topbanner">
+					<h3>Step 2 : Show the list of Hackers</h3>
+					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]> 
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing" 
+(integer) 1</mark>
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"</code></pre>
+				</section>
+				<section data-transition="none" data-state="topbanner">
+					<h3>Step 3 : Show the list with score</h3>
+					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]> 
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing" 
+(integer) 1
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"</mark>
+127.0.0.1:6363[2]> zrange hackers 0 -1 withscores
+1) "Alan turing"
+2) "1912"
+3) "Richard Stallman"
+4) "1953"
+5) "Linus"
+6) "1969"</code></pre>
+				</section>
+				<section data-transition="none" data-state="topbanner">
+					<h3>Step 4 : Last step with transparent code</h3>
+					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]> 
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing" 
+(integer) 1
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"
+127.0.0.1:6363[2]> zrange hackers 0 -1 withscores
+1) "Alan turing"
+2) "1912"
+3) "Richard Stallman"
+4) "1953"
+5) "Linus"
+6) "1969"</mark>
+127.0.0.1:6363[2]> zrangebyscore hackers 1910 1940
+1) "Alan turing"</code></pre>
+				</section>
+				<section data-state="flash" align="center">
+					<h1>Live demo</h1>
+				</section>
+				<section data-state="flash topbanner" align="center">
+					<h1>Merci / Thanks you</h1>
+				</section>
+				<section data-state="topbanner">
+					<div style="width: 50%; display: inline-block; margin-right: 5%; text-align: center;">
+        				<h4>This is not me</h4>
+						<p>Devoxx France 2016 figures and numbers :188 speakers with a badge, 36 exhibitors</p><br/><br/><br/><br/>
+    				</div>
+    				<div style="width: 40%; display: inline-block;">
+        				<img data-src="slide_13_this_is_not_me.jpg" />
+    				</div>
+				</section>
+				<section data-state="flash" align="center">
+					<h1>Less code is less bug</h1>
+				</section>
+				<section>
+					<h4>Why less slides is better than more slides</h4>
+					<ul>
+						<li>Devoxx France 2016 runs on 3 days</li>
+						<li>Audience loves live coding and demo</li>
+						<li>Too much bullet points is super boring</li>
+						<li>More text : less concentration from the audience that will just read your slides</li>
+						<li>So this is exactly what you should not do</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Pourquoi peu de diapositives c’est mieux</h4>
+					<ul>
+						<li>Devoxx France 2016 se déroule sur 3 jours</li>
+						<li>Le public préfère les démonstrations et l’écriture de code en direct</li>
+						<li>Trop de points avec des puces c’est ennuyant</li>
+						<li>Si vos slides peuvent vous remplacer, alors vous ne servez à rien comme orateur</li>
+						<li>Imaginez que votre ensemble de diapos ne doivent pas pouvoir vivre sans vous, sans votre présentation et votre contenu</li>
+						<li>Merci donc de ne PAS faire comme ce slide à mourir</li>
+					</ul>
+				</section>
+				<section>
+					<h4>Toujours plus d'image</h4>
+					<div style="width: 50%; display: inline-block; margin-right: 5%; text-align: center;">
+						<ul>
+							<li>Les diagrammes dynamiques c’est vraiment top</li><br/><br/><br/><br/>
+						</ul>
+    				</div>
+    				<div style="width: 40%; display: inline-block;">
+        				<img data-src="slide_17_toujours_plus_d_image.jpg" />
+    				</div>
+				</section>
+				<section data-state="topbanner">
+					<h2>Redis Set</h2>
+					<p>TODO</p>
+				</section>
+				<section data-state="topbanner">
+					<h2>Redis Set : French Selected Speakers</h2>
+					<p>TODO</p>
+				</section>
+				<section data-state="fullimg topbanner">
+					<h2>Screen capture</h2>
+					<img data-src="slide_20_screen_capture.jpg" />
+					<p align="center"><a href="https://cfp.devoxx.fr">https://cfp.devoxx.fr</a></p>
+				</section>
+				<section data-state="flash">
+						<h4>&nbsp;</h4>
+						<ul>
+							<li>Here are just a few photos from Devoxx France 2015 so that you get a better idea of what you’re about to live</li>
+							<li>Voici quelques photos de Devoxx France 2016 afin de vous donner une idée de ce que vous vous apprêtez à vivre...</li>
+						</ul>
+				</section>
+				<section data-state="fullimg">
+					<img data-src="slide_22.jpg" />
+				</section>
+				<section data-state="fullimg">
+					<img data-src="slide_23.jpg" />
+				</section>
+				<section data-state="fullimg">
+					<img data-src="slide_24.jpg" />
+				</section>
+				<section data-state="fullimg">
+					<img data-src="slide_25.jpg" />
+				</section>
+				<section data-state="intro">
+					<h1>Thanks</h1>
+					<p>Contribute and propose other templates on <a href="https://bitbucket.org/nicolas_martignole/devoxxfr_2016_templates/overview
+">https://bitbucket.org/nicolas_martignole/devoxxfr_2016_templates/overview
+</a></p>
+				</section>
+
+				<div class="footer"><p>#DevoxxFR</p><img align="right" src="logo-texte-devoxx-france-400.png" /></div>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: false,
+
+ width: 1024,
+ height: 768,
+ slideNumber: true,
+ margin: 0.0,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
