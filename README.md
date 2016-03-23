@@ -60,6 +60,8 @@ From the sponsor brochure to our web site, through the tee-shirt, we created a n
 
 Almost all presentations are recorded. Your presentation will be available few weeks after Devoxx France 2016 on the Youtube Devoxx channel. 
 
+We recommend that you keep the 16/9 ratio format for optimal display.
+
 This year we record your laptop video output directly and thus we won't need PDF or your slides after the presentation. Feel free to use any presentation technologies, but try to follow our guidelines and the color chart.
 
 Thanks
