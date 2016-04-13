@@ -32,8 +32,6 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
@@ -43,22 +41,22 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section data-state="intro">
-					<h1>Devoxx France 2016 sample presentation</h1>
-					<p>Nicolas Martignole <a href="http://twitter.com/nmartignole">@nmartognole</a></p>
-					<p>Zouheir Cadi <a href="http://twitter.com/zouheircadi">@zouheircadi</a></p>
-					<p>Antonio Goncalves <a href="http://twitter.com/agoncal">@agoncal</a></p>
+					<h1>Devoxx France 2016<br />sample presentation</h1>
+					<p>Nicolas Martignole <a href="http://twitter.com/nmartignole">@nmartignole</a><br />
+					Zouheir Cadi <a href="http://twitter.com/zouheircadi">@zouheircadi</a><br />
+					Antonio Goncalves <a href="http://twitter.com/agoncal">@agoncal</a></p>
 				</section>
 				<section data-state="intro">
-					<h1>Welcome to Devoxx France</h1>
+					<h2>Welcome to Devoxx France</h2>
 					<p>This is a template created inspired from Power Point template</p>
-					<p>Format 4/3</p>
+					<p>Format 16/9</p>
 				</section>
 				<section data-state="intro content" align="center">
-					<h1>We love picture</h1>
+					<h1 style="margin-top: -12%">We love picture</h1>
 					<img data-src="slide_3_we_love_picture.jpg" width="55%" style="display:block;margin-left:auto;margin-right:auto;" />
 					<p>We try to keep the Devoxx France logo and the Tweet hashtag on all slides</p>
 				</section>
-				<section data-state="topbanner">
+				<section>
 					<h2>Roadmap</h2>
 					<p>This is a slide without background images.</p>
 					<p>You must load and install 2 Fonts on your system :
@@ -68,19 +66,20 @@
 						</ul>
 					</p>
 				</section>
-				<section data-state="topbanner">
+				<section>
 					<h2>Devoxx FR 2016 colors</h2>
 					<p>main color, purple, #2a013b <span class="main">purple</span></p>
 					<p>secondary color, #b10142, <span class="secondary">dark pink</span></p>
 					<p>third color, smoke white #eeeeee <span class="third">white smoke</span></p>
 					<p>fourth color, dark purple #10001a <span class="fourth">dark purple</span></p>
 				</section>
-				<section data-state="topbanner">
+				<section>
 					<h3>&nbsp;</h3>
 					<p class="code">Show me some code !</p>
 					<p class="code">Try to keep a font size as big as possible. Remember also that too much code on one slide is useless. The audience reads this texte and does not listen to your presentation anymore. Try to split on different slides your presentation.</p>
 				</section>
-				<section data-transition="none"  data-state="topbanner">
+				<section>
+				<section data-transition="none">
 					<h3>Step 1 : add to Redis sorted set</h3>
 					<pre><code data-trim data-noescape>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
 (integer) 1
@@ -90,7 +89,7 @@
 127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing" 
 (integer) 1</code></pre>
 				</section>
-				<section data-transition="none"  data-state="topbanner">
+				<section data-transition="none">
 					<h3>Step 2 : Show the list of Hackers</h3>
 					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
 (integer) 1
@@ -104,7 +103,7 @@
 2) "Richard Stallman"
 3) "Linus"</code></pre>
 				</section>
-				<section data-transition="none" data-state="topbanner">
+				<section data-transition="none">
 					<h3>Step 3 : Show the list with score</h3>
 					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
 (integer) 1
@@ -125,7 +124,7 @@
 5) "Linus"
 6) "1969"</code></pre>
 				</section>
-				<section data-transition="none" data-state="topbanner">
+				<section data-transition="none">
 					<h3>Step 4 : Last step with transparent code</h3>
 					<pre><code data-trim data-noescape><mark>127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
 (integer) 1
@@ -148,13 +147,14 @@
 127.0.0.1:6363[2]> zrangebyscore hackers 1910 1940
 1) "Alan turing"</code></pre>
 				</section>
+				</section>
 				<section data-state="flash" align="center">
 					<h1>Live demo</h1>
 				</section>
-				<section data-state="flash topbanner" align="center">
+				<section data-state="flash" align="center">
 					<h1>Merci / Thanks you</h1>
 				</section>
-				<section data-state="topbanner">
+				<section data-state="rightbanner">
 					<div style="width: 50%; display: inline-block; margin-right: 5%; text-align: center;">
         				<h4>This is not me</h4>
 						<p>Devoxx France 2016 figures and numbers :188 speakers with a badge, 36 exhibitors</p><br/><br/><br/><br/>
@@ -198,17 +198,17 @@
         				<img data-src="slide_17_toujours_plus_d_image.jpg" />
     				</div>
 				</section>
-				<section data-state="topbanner">
+				<section>
 					<h2>Redis Set</h2>
 					<p>TODO</p>
 				</section>
-				<section data-state="topbanner">
+				<section>
 					<h2>Redis Set : French Selected Speakers</h2>
 					<p>TODO</p>
 				</section>
-				<section data-state="fullimg topbanner">
+				<section>
 					<h2>Screen capture</h2>
-					<img data-src="slide_20_screen_capture.jpg" />
+					<img data-src="slide_20_screen_capture.jpg" style="width: 60%;margin-left:auto;margin-right:auto;display:block;" />
 					<p align="center" style="margin-top:-10px"><a href="https://cfp.devoxx.fr">https://cfp.devoxx.fr</a></p>
 				</section>
 				<section data-state="flash">
@@ -218,17 +218,13 @@
 							<li>Voici quelques photos de Devoxx France 2016 afin de vous donner une idée de ce que vous vous apprêtez à vivre...</li>
 						</ul>
 				</section>
-				<section data-state="fullimg">
-					<img data-src="slide_22.jpg" />
+				<section data-state="fullimg" data-background="slide_22.jpg">
 				</section>
-				<section data-state="fullimg">
-					<img data-src="slide_23.jpg" />
+				<section data-state="fullimg" data-background="slide_23.jpg" />
 				</section>
-				<section data-state="fullimg">
-					<img data-src="slide_24.jpg" />
+				<section data-state="fullimg" data-background="slide_24.jpg" />
 				</section>
-				<section data-state="fullimg">
-					<img data-src="slide_25.jpg" />
+				<section data-state="fullimg" data-background="slide_25.jpg" />
 				</section>
 				<section data-state="intro">
 					<h1>Thanks</h1>
@@ -237,9 +233,9 @@
 </a></p>
 				</section>
 
-				<div class="footer"><p>#DevoxxFR</p><img align="right" src="logo-texte-devoxx-france-400.png" /></div>
 			</div>
 
+			<div class="footer"><p>#DevoxxFR</p><img align="right" src="logo-texte-devoxx-france-400.png" /></div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>

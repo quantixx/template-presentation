@@ -3,7 +3,9 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+ @import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+ @import url(../fonts/Montserrat/montserrat.css);
+ @import url(../fonts/OpenSans/open-sans.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -289,18 +291,6 @@ body {
 /**********************************************
  * DEVOXX FRANCE CHART 1
  **********************************************/
-.main {
-  color: #2a013b; }
-
-.secondary {
-  color: #b10142; }
-
-.third {
-  color: #eeeeee; }
-
-.fourth {
-  color: #10001a; }
-
 code, .slides .code {
   font-family: "Courier";
   font-size: 0.6em; }
@@ -310,10 +300,13 @@ mark {
   background-color: #3f3f3f; }
 
 html body {
-  background-image:linear-gradient(#2a013b, #10001a); }
+  background-image:linear-gradient(#380B4C,#140223); }
 
 html.topbanner body {
-  background-image:linear-gradient(#10001a, #2a013b); }
+  background-image:linear-gradient(#140223, #380B4C); }
+
+html.rightbanner body {
+  background-image:linear-gradient(to left, #140223, #380B4C); }
 
 
 /* main text */
@@ -323,7 +316,7 @@ html.topbanner body {
 
 
 /* main title */
-.slides h1, .slides h2, .slides h3, .slides h4 {
+.slides h1, .slides h2, .slides h3, .slides h4, .slides .title {
   font-family: "Montserrat";
   text-transform: none; }
 
@@ -344,32 +337,34 @@ html.topbanner body {
   padding-left: 4%;
   padding-right: 4%; }
 
-.slides section p, .slides section ul {
+.slides section p, .slides section ul, .slides section i {
   padding-left: 6%;
   padding-right: 6%; }
 
 
 /* intro slides */
 html.intro .slides {
-  background-image: url("../../background_1920_1080_HD.jpg"); }
+  background-image: url("../../background_1280_720_HD.jpg"); }
 
-html.intro .slides section h1 {
-  margin-top: 15%;
-  margin-left: 8%;
-  margin-right: 8%;
-  text-align: center; }
+html.intro .reveal .slides section h1, html.intro .reveal .slides section h2 {
+  padding-top: 12%;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: left;
+  border-bottom: none; }
 
-html.content .slides section h1 {
-  margin-top: 0%; }
-
-html.intro .slides section p {
+html.intro .reveal .slides section p {
   text-align: left;
   margin-left: 12%;
   margin-right: 12%; }
 
 html.intro .footer {
+  z-index: 100;
   background-image: none;
   background-color: #10001a; }
+
+html.content .slides section h1 {
+  top: 0%; }
 
 
 .reveal .slide-number {
@@ -389,7 +384,8 @@ html.intro .footer {
   position:absolute;
   bottom: 0px;
   width: 100%;
-  background-image: url("../../footer_engrenage.jpg");
+  height: 49px;
+  background-image: url("../../footer_engrenage_1280_102_HD.jpg");
   background-position: center top; }
 
 .footer img {
@@ -401,7 +397,8 @@ html.intro .footer {
   margin: 0px;
   text-align: left;
   padding-left: 10px;
-  font-size: 0.6em; }
+  font-size: 1em;
+  font-weight: bold }
 
 
 /* flash slides */
@@ -412,15 +409,24 @@ html.flash h1 {
 
 
 /* full image slide */
-html.fullimg .reveal .slides section {
-  padding: 0px; }
+html.fullimg .footer {
+  z-index: 100;
+  background-image: none; }
 
-html.fullimg section img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px; }
 
-html.fullimg .reveal img {
-  max-width: 100%;
-  max-height: 100%; }
+/* light slide */
+html.light .footer p {
+  color: black; }
+
+
+.slides .main {
+  color: #2a013b; }
+
+.slides .secondary {
+  color: #b10142; }
+
+.slides .third {
+  color: #eeeeee; }
+
+.slides .fourth {
+  color: #10001a; }
