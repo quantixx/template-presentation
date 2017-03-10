@@ -7,14 +7,14 @@
  @import url(../fonts/Montserrat/montserrat.css);
  @import url(../fonts/OpenSans/open-sans.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #222; }
+  color: #02002b; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #222;
-  background-color: #222; }
+  background: #02002b;
+  background-color: #02002b; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -300,13 +300,13 @@ mark {
   background-color: #3f3f3f; }
 
 html body {
-  background-image:linear-gradient(#380B4C,#140223); }
+  background-image:linear-gradient(#057ffa,#03002e); }
 
 html.topbanner body {
-  background-image:linear-gradient(#140223, #380B4C); }
+  background-image:linear-gradient(#057ffa, #03002e); }
 
 html.rightbanner body {
-  background-image:linear-gradient(to left, #140223, #380B4C); }
+  background-image:linear-gradient(to left, #057ffa, #033494); }
 
 
 /* main text */
@@ -344,7 +344,7 @@ html.rightbanner body {
 
 /* intro slides */
 html.intro .slides {
-  background-image: url("../../background_1280_720_HD.jpg"); }
+  background-image: url("../../background_1280_720_HD.png"); }
 
 html.intro .reveal .slides section h1, html.intro .reveal .slides section h2 {
   padding-top: 12%;
@@ -361,7 +361,7 @@ html.intro .reveal .slides section p {
 html.intro .footer {
   z-index: 100;
   background-image: none;
-  background-color: #10001a; }
+  background-color: #057ffa; }
 
 html.content .slides section h1 {
   top: 0%; }
@@ -385,7 +385,7 @@ html.content .slides section h1 {
   bottom: 0px;
   width: 100%;
   height: 49px;
-  background-image: url("../../footer_engrenage_1280_102_HD.jpg");
+  background-image: url("../../bandeau_bas.png");
   background-position: center top; }
 
 .footer img {
@@ -420,13 +420,13 @@ html.light .footer p {
 
 
 .slides .main {
-  color: #2a013b; }
+  color: #057ffa; }
 
 .slides .secondary {
-  color: #b10142; }
+  color: #03002e; }
 
 .slides .third {
-  color: #eeeeee; }
+  color: #033494; }
 
 .slides .fourth {
-  color: #10001a; }
+  color: #f2d279; }
