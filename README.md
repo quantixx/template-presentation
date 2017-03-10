@@ -7,6 +7,7 @@ Devoxx France 2017 template
 This repository contains different templates for Devoxx France 2017. It's not a closed repository, you can also contribute and propose your presentation.
 
 As an inspiration, we included a PDF version of our Keynote template, so that you can get an idea of what it could looks like.
+See https://bitbucket.org/nicolas_martignole/devoxxfr_templates/raw/191b018584f923eb7f87e31db2d8dc0a17659af9/Sample%20presentation%20Devoxx%20FR%202017.pdf
 
 ### How do I contribute ###
 
