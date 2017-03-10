@@ -1,18 +1,18 @@
 # README #
 
-Devoxx France 2016 template
+Devoxx France 2017 template
 
 ### What is this repository for? ###
 
-This repository contains different templates for Devoxx France 2016. It's not a closed repository, you can also contribute and propose your presentation.
+This repository contains different templates for Devoxx France 2017. It's not a closed repository, you can also contribute and propose your presentation.
 
 As an inspiration, we included a PDF version of our Keynote template, so that you can get an idea of what it could looks like.
 
 ### How do I contribute ###
 
-If you want to create your own Devoxx France 2016, we'd like that you use our guidelines, fonts and logo so that we can offer a consolidated experience to our attendees.
+If you want to create your own Devoxx France 2017, we'd like that you use our guidelines, fonts and logo so that we can offer a consolidated experience to our attendees.
 
-### Devoxx France 2016 Fonts and Colors
+### Devoxx France 2017 Fonts and Colors
 
 ### Fonts
 
@@ -36,41 +36,30 @@ You can use this
 
 The main Theme is based on the following colors :
 
-main color, purple, #2a013b
-secondary color, #b10142
-third color, smoke white #eeeeee
-fourth color, for backgroun, dark purple #10001a
+main color, light blue, #057FFA
+secondary color, dark blue, #03002E
+third color, alternate blue #033494
 
-#### Color chart 2
+alternate color, accent, #F2D279
+alternate color 2, #EDAF1F (orange from Devoxx logo)
 
-This theme is based on the main Orange we used on our web site, 
+### What is the Devoxx France 2017 Theme?  
 
-main color, Orange #ff5722
-secondary color, white, #FFFFFF
-third color, Dark grey #393939
-fourth color, light grey #666666
+A tree with the Artificial energy
 
-### What is the Devoxx France 2016 Theme? ### 
+### What is the recommended format? 
 
-Gears, gears, gears.
-
-From the sponsor brochure to our web site, through the tee-shirt, we created a new theme around Gears. For French, the tagline will be "L'ensemble de nos passions". You can try to translate this to "The sum of all our passions".
-
-### What is the recommended format? ### 
-
-Almost all presentations are recorded. Your presentation will be available few weeks after Devoxx France 2016 on the Youtube Devoxx channel. 
+Almost all presentations are recorded. Your presentation will be available few weeks after Devoxx France 2017 on the Youtube Devoxx channel. 
 
 We recommend that you keep the 16/9 ratio format for optimal display.
 
 This year we record your laptop video output directly and thus we won't need PDF or your slides after the presentation. Feel free to use any presentation technologies, but try to follow our guidelines and the color chart.
 
+Devoxx France are not mandatory. If you prefer to use your own presentation, do it. Please insert a first slide with the Devoxx France 2017 theme, then keep your presentation as it is. Always remember : your presentation is recorded. 
+
 Thanks
 
 Nicolas Martignole
 nicolas.martignole@devoxx.fr
-
-
-
-
 
 
