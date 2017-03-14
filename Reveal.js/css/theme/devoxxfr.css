@@ -52,10 +52,10 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2.1em; }
+  font-size: 2.0em; }
 
 .reveal h2 {
-  font-size: 1.4em; }
+  font-size: 2.0em; }
 
 .reveal h3 {
   font-size: 1.2em; }
@@ -282,25 +282,28 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #b10142;
+  background: #edaf1f;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
 
 
 /**********************************************
- * DEVOXX FRANCE CHART 1
+ * DEVOXX FRANCE CHART
  **********************************************/
 code, .slides .code {
   font-family: "Courier";
-  font-size: 0.6em; }
+  font-size: 1.0em;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
 
 mark {
   opacity: 0.2;
   background-color: #3f3f3f; }
 
 html body {
-  background-image:linear-gradient(#057ffa,#03002e); }
+  background-image:linear-gradient(#03002e, #057ffa); }
 
 html.topbanner body {
   background-image:linear-gradient(#057ffa, #03002e); }
@@ -317,20 +320,21 @@ html.rightbanner body {
 
 /* main title */
 .slides h1, .slides h2, .slides h3, .slides h4, .slides .title {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Light";
   text-transform: none; }
 
 .slides h2 {
-  border-bottom: solid 10px #750e29;
+  border-bottom: solid 6px #edaf1f;
   text-align: center;
   padding-bottom: 0.1em; }
 
 .slides h3 {
-  background-color: #c11e53;
+  background-color: #edaf1f;
   color: white;
   text-align: left;
   padding-left: 4%;
-  padding-right: 4%; }
+  padding-right: 4%;
+  padding-bottom: 10px; }
 
 .slides h4 {
   text-align: center;
@@ -347,21 +351,22 @@ html.intro .slides {
   background-image: url("../../background_1280_720_HD.png"); }
 
 html.intro .reveal .slides section h1, html.intro .reveal .slides section h2 {
-  padding-top: 12%;
-  padding-left: 6%;
-  padding-right: 6%;
-  text-align: left;
-  border-bottom: none; }
+  text-align: center;
+  border-bottom: none;
+  margin-top: 2%; }
+
+html.intro .reveal .slides section h2 {
+  font-family: 'Montserrat-ExtraBold';
+  margin-top: 10%; }
 
 html.intro .reveal .slides section p {
   text-align: left;
-  margin-left: 12%;
-  margin-right: 12%; }
+  margin-left: 2%; }
 
 html.intro .footer {
-  z-index: 100;
+//  z-index: 100;
   background-image: none;
-  background-color: #057ffa; }
+  background-color: #03002e; }
 
 html.content .slides section h1 {
   top: 0%; }
@@ -370,28 +375,32 @@ html.content .slides section h1 {
 .reveal .slide-number {
   left: 50%;
   bottom: 0.5em;
-  width: 1.5em; }
+  width: 1.5em;
+  font-family: "Montserrat";
+  font-size: 18px; }
 
 .reveal section img {
   border: none; }
 
 .reveal .slides {
-    text-align: left; }
+  text-align: left; }
 
 
 /* devoxx footer */
 .footer {
+  z-index: 10;
   position:absolute;
   bottom: 0px;
   width: 100%;
-  height: 49px;
+  height: 62px;
   background-image: url("../../bandeau_bas.png");
   background-position: center top; }
 
 .footer img {
   position: absolute;
   top: 0px;
-  right: 0px; }
+  right: 0px;
+  height:100%; }
 
 .footer p {
   margin: 0px;
@@ -430,3 +439,16 @@ html.light .footer p {
 
 .slides .fourth {
   color: #f2d279; }
+
+.slides .alternate1 {
+  color: #f2d279; }
+
+.slides .alternate2 {
+  color: #edaf1f; }
+
+.reveal .copyright {
+  position: absolute;
+  right: 2px;
+  font-size: 0.2em;
+/*  top: 676px;*/
+/*  top: 996px; */}
