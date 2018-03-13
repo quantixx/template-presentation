@@ -294,7 +294,8 @@ body {
 code, .slides .code {
   font-family: "Courier";
   font-size: 1.0em;
-  width: 70%;
+  height: 100%;
+  bottom: 0;
   margin-left: auto;
   margin-right: auto; }
 
@@ -303,14 +304,20 @@ mark {
   background-color: #3f3f3f; }
 
 html body {
-  background-image:linear-gradient(#03002e, #057ffa); }
+}
 
 html.topbanner body {
-  background-image:linear-gradient(#057ffa, #03002e); }
+}
 
-html.rightbanner body {
-  background-image:linear-gradient(to left, #057ffa, #033494); }
+html.rightbanner {
+  background-image: linear-gradient(to top, #7f1111, #FF1417);
+  font-family: "Montserrat-Light";
+}
 
+
+.slide-background {
+  background-image: linear-gradient(to top, #7f1111, #FF1417);
+}
 
 /* main text */
 .slides, .reveal .slide-number {
@@ -329,26 +336,34 @@ html.rightbanner body {
   padding-bottom: 0.1em; }
 
 .slides h3 {
-  background-color: #edaf1f;
+  background-color: #FF4C4C;
   color: white;
   text-align: left;
   padding-left: 4%;
   padding-right: 4%;
-  padding-bottom: 10px; }
+  padding-bottom: 10px; 
+}
 
 .slides h4 {
   text-align: center;
   padding-left: 4%;
-  padding-right: 4%; }
+  padding-right: 4%; 
+}
 
 .slides section p, .slides section ul, .slides section i {
   padding-left: 6%;
-  padding-right: 6%; }
+  padding-right: 6%; 
+}
 
+/* intro slides */
+html.intro .slide-background {
+  background-image:url("../../background_1280_720_HD.png"); 
+} 
 
 /* intro slides */
 html.intro .slides {
-  background-image: url("../../background_1280_720_HD.png"); }
+}
+
 
 html.intro .reveal .slides section h1, html.intro .reveal .slides section h2 {
   text-align: center;
@@ -364,19 +379,54 @@ html.intro .reveal .slides section p {
   margin-left: 2%; }
 
 html.intro .footer {
-//  z-index: 100;
   background-image: none;
-  background-color: #03002e; }
+}
 
-html.content .slides section h1 {
+html.picture .slide-background{
+  background-image: linear-gradient(to top, #FFFFFF, #FFFFFF);
+}
+
+html.picture .slides section h1 {
   top: 0%; }
 
+html.picture .footer {
+  background-image: none;
+}
+
+html.code h3 {
+  width:100%;
+}
+
+html.demo .slide-background{
+  background-image: linear-gradient(to top, #330707, #330707);
+}
+
+html.demo .slides{
+  font-family: "Montserrat";
+}
+
+html.bgpicture1 .slide-background{
+  background-image: url("../../images/duotone think.png");
+  background-size:cover;
+}
+
+html.advices .slide-background{
+  background-image: radial-gradient(
+    circle at 75% 25%,
+    #FF4c4c,
+    #7f1111 40%
+  );
+}
+html.picture2 .slide-background{
+  background-image: linear-gradient(to top, #330707, #330707);
+}
 
 .reveal .slide-number {
   left: 50%;
   bottom: 0.5em;
   width: 1.5em;
   font-family: "Montserrat";
+  text-align: center;
   font-size: 18px; }
 
 .reveal section img {
@@ -429,22 +479,19 @@ html.light .footer p {
 
 
 .slides .main {
-  color: #057ffa; }
+  color: #7f1111; }
 
 .slides .secondary {
-  color: #03002e; }
+  color: #FF1c4c; }
 
 .slides .third {
-  color: #033494; }
-
-.slides .fourth {
-  color: #f2d279; }
+  color: #FF1417; }
 
 .slides .alternate1 {
-  color: #f2d279; }
+  color: #DB1837; }
 
 .slides .alternate2 {
-  color: #edaf1f; }
+  color: #cc0c0c; }
 
 .reveal .copyright {
   position: absolute;
