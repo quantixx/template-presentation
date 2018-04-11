@@ -1,8 +1,6 @@
 @font-face {
     font-family: 'Montserrat';
     src: url('Montserrat-SemiBold.eot');
-    src: url('Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
-    /*url('Montserrat-SemiBold.woff') format('woff'),*/
     url('Montserrat-SemiBold.otf') format('truetype');
     font-weight: 600;
     font-style: normal;
@@ -11,8 +9,6 @@
 @font-face {
     font-family: 'Montserrat-ExtraBold';
     src: url('Montserrat-ExtraBold.eot');
-    src: url('Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    /*url('Montserrat-ExtraBold.woff') format('woff'),*/
     url('Montserrat-ExtraBold.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -21,8 +17,6 @@
 @font-face {
     font-family: 'Montserrat-Light';
     src: url('Montserrat-Light.eot');
-    src: url('Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-    /*url('Montserrat-Light.woff') format('woff'),*/
     url('Montserrat-Light.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -31,8 +25,6 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('OpenSans-Semibold.eot');
-    src: url('OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
-    /*url('OpenSans-Semibold.woff') format('woff'),*/
     url('OpenSans-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
@@ -41,8 +33,6 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('OpenSans-SemiboldItalic.eot');
-    src: url('OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-    /*url('OpenSans-SemiboldItalic.woff') format('woff'),*/
     url('OpenSans-SemiboldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
