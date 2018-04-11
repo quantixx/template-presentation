@@ -1,1 +1,4 @@
 Nicolas Martignole
+
+David Russell david@gitpitch.com
+

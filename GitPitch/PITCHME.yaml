@@ -1,0 +1,7 @@
+theme :  black
+theme-override : assets/css/devoxxfr.css
+layout : top-left
+logo : assets/images/logos/logo-texte-devoxx-france-400.png
+logo-position : bottom-right
+highlight : atom-one-light
+footnote : "<b>Twitter: DevoxxFR</b>" 

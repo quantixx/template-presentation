@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-SemiBold.eot');
+    src: url('Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+    /*url('Montserrat-SemiBold.woff') format('woff'),*/
+    url('Montserrat-SemiBold.otf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('Montserrat-ExtraBold.eot');
+    src: url('Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    /*url('Montserrat-ExtraBold.woff') format('woff'),*/
+    url('Montserrat-ExtraBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('Montserrat-Light.eot');
+    src: url('Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+    /*url('Montserrat-Light.woff') format('woff'),*/
+    url('Montserrat-Light.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Semibold.eot');
+    src: url('OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+    /*url('OpenSans-Semibold.woff') format('woff'),*/
+    url('OpenSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-SemiboldItalic.eot');
+    src: url('OpenSans-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    /*url('OpenSans-SemiboldItalic.woff') format('woff'),*/
+    url('OpenSans-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+.reveal {
+  font-family: 'Open Sans' !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 400 !important;
+}
+
+.slides h1, .slides h2, .slides h3, .slides h4, .slides h5, .slides .title {
+  font-family: "Montserrat-Light";
+  text-transform: none;
+}
+
+.reveal h1 {
+    font-size: 2em;
+}
+
+.nobullets {
+  list-style-type: none !important;
+}
+
+.nobullets li{
+ font-size: 0.8em;
+}
+
+.shrinktext li {
+ font-size: 0.7em;
+}
+
+.reveal pre {
+  width: 100%;
+  box-shadow : none;
+}
+
+.reveal pre code {
+  font-size: 1.2em;
+  line-height: 1.2;
+  opacity: 0.95;
+  border-radius: 10px;
+  max-height: 50vh !important;
+}
+
+.reveal div.left {
+    float: left;
+    z-index: -10;
+    width: 40%;
+}
+
+.reveal div.right {
+    float: right;
+    z-index: -10;
+    width: 60%;
+}
+
