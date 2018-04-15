@@ -1,0 +1,56 @@
+127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]>
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]>
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing"
+(integer) 1</mark>
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"
+127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]>
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing"
+(integer) 1
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"</mark>
+127.0.0.1:6363[2]> zrange hackers 0 -1 withscores
+1) "Alan turing"
+2) "1912"
+3) "Richard Stallman"
+4) "1953"
+5) "Linus"
+6) "1969"
+127.0.0.1:6363[2]> zadd hackers 1953 "Richard Stallman"
+(integer) 1
+127.0.0.1:6363[2]>
+127.0.0.1:6363[2]> zadd hackers 1969 "Linus"
+(integer) 1
+127.0.0.1:6363[2]> zadd hackers 1912 "Alan turing"
+(integer) 1
+127.0.0.1:6363[2]> zrange hackers 0 -1
+1) "Alan turing"
+2) "Richard Stallman"
+3) "Linus"
+127.0.0.1:6363[2]> zrange hackers 0 -1 withscores
+1) "Alan turing"
+2) "1912"
+3) "Richard Stallman"
+4) "1953"
+5) "Linus"
+6) "1969"</mark>
+127.0.0.1:6363[2]> zrangebyscore hackers 1910 1940
+1) "Alan turing"

@@ -14,6 +14,7 @@ We offer the following supports :
 - Keynote 09 older version
 - LibreOffice
 - Reveal.js
+- GitPitch
 
 ### How do I contribute ###
 
