@@ -1,4 +1,7 @@
-Nicolas Martignole
-
+Nicolas Martignole - nicolas.martignole@devoxx.fr
 David Russell david@gitpitch.com
+Jean Detoeuf - reveal.js
+Xavier Raffin
+Sebastien Lecacheur
+Vlad Mihalcea
 

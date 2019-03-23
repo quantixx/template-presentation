@@ -1,10 +1,20 @@
+![Logo](https://dvxfrance.cdn.prismic.io/dvxfrance/2ef0eb5da10bd97bf400ddc2100f75efbf7e2095_banniere_devoxx_fr_carre_2019_400.png)
+
 # README #
 
-Devoxx France 2018 template
+This is an open repository for Devoxx France template.
 
 ### What is this repository for? ###
 
-This repository contains different templates for Devoxx France 2018. It's not a closed repository, you can also contribute and propose your presentation.
+This repository contains various templates for Devoxx France. It's not a closed repository, you can also contribute and propose your presentation.
+Each year, the master branch contains the latest version, for the next conference.
+
+### What is Devoxx France?
+
+[Devoxx France](https://www.devoxx.fr) is one of the biggest conference for software developers, in Paris.
+Created in 2012, Devoxx France conference takes place at the Palais des Congrès, Paris, in April.
+
+If you want to submit a talk, and try to be selected as a speaker: the call for paper is usuall open from december to february.
 
 ### What's include? ####
 
@@ -16,9 +26,9 @@ We offer the following supports :
 - Reveal.js
 - GitPitch
 
-### How do I contribute ###
+### How do I contribute? ###
 
-If you want to create your own Devoxx France 2018, we'd like that you use our guidelines, fonts and logo so that we can offer a consolidated experience to our attendees.
+If you want to create your own Devoxx France Theme, we'd like that you use our guidelines, fonts and logo so that we can offer a consolidated experience to our attendees.
 
 If you want to publish your work : 
 
@@ -26,60 +36,48 @@ If you want to publish your work :
   - create a pull request 
   - submit your PR and send me an email
 
-### Devoxx France 2018 Fonts and Colors
+### Devoxx France 2019 Fonts and Colors
 
 ### Fonts
 
 #### Titles
 
-For main title, we used Montserrat (https://www.google.com/fonts/specimen/Montserrat) 
+For main title, we used [Montserrat](https://www.google.com/fonts/specimen/Montserrat) 
 You can use Montserrat semi-bold for titles.
 
 #### Main text
 
 For main text we use Open Sans, one of the Google Font, with variant Normal, 400
 
-For the "computer fixed font" (R)evolution => we ise Ocr A Std Regulard.
-You can also download this font here : 
-http://fontsgeek.com/fonts/OCR-A-Std-Regular/download
-
 #### Direct Google font link
 
 You can use this link for Montserrat
 
-(<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>)[Google Font Montserrat]
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
 
-#### Color chart 1
+#### Color chart
 
-The main color this year is red, on black.
+The main color this year is inspired from our logos
 
-https://color.adobe.com/fr/cloud/aHR0cHM6Ly9jYy1hcGktYXNzZXRzLmFkb2JlLmlv/library/1eda1221-61b1-40cc-ae53-510f2590fdf9/theme/51ca1030-a962-4437-98c2-d62954e473e5/
+![Banniere](https://dvxfrance.cdn.prismic.io/dvxfrance/bbdef0312eff3126eb5eb84d4676a9349cd7dc37_banniere_devoxx_france_horizontale_600_2019.png)
+
+[See on Colors.adobe.com](https://color.adobe.com/fr/cloud/aHRhttps://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
 
 The main Theme is based on the following colors :
 
-  - main color, dark red, #7f1111
-  - secondary color, light pink red blue, #FF1c4c
-  - third color, red #FF1417
-  - alternate color, accent, #DB1837
-  - alternate color 2, #cc0c0c 
+  - dark black #313741
+  - white #ffffff
+  - green lemon #6BB884
+  - back brown #C26B49
+  - accent yellow #f8ad42 
 
-### What is the Devoxx France 2018 Theme?  
+### What is the Devoxx France 2019 Theme?  
 
-The logo was created by Nicolas Martignole. Based on the 7 digit number and like an iceberg, it's a mix of Revolution and Evolution, our main theme for 2018
+The logo was created by Nicolas Martignole. As our main theme for 2019 is "Happiness at work" I decided to represent lines of energy.
 
-## I want some nice images !
+### What is the recommended format for the templates? 
 
-I suggest that you use Duotone and you pick images with the 2 main Devoxx colors :
-
-https://duotone.shapefactory.co/?f=7f1111&t=ff1c4c&q=evolution
-
-and also
-
-https://duotone.shapefactory.co/?f=7f1111&t=ff1c4c&q=revolution
-
-### What is the recommended format? 
-
-Almost all presentations are recorded. Your presentation will be available few weeks after Devoxx France on the Youtube Devoxx channel. 
+Almost all presentations are recorded during Devoxx France. Your presentation will be available few weeks after Devoxx France on the [Youtube Devoxx channel](https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A) 
 
 We recommend that you keep the 16/9 ratio format for optimal display.
 
