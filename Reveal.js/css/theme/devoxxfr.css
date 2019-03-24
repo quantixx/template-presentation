@@ -7,14 +7,14 @@
  @import url(../fonts/Montserrat/montserrat.css);
  @import url(../fonts/OpenSans/open-sans.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
-  color: #02002b; }
+  color: #313741; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #02002b;
-  background-color: #02002b; }
+  background: #313741;
+  background-color: #313741; }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -24,7 +24,7 @@ body {
 
 ::selection {
   color: #fff;
-  background: #bee4fd;
+  background: #6BB884;
   text-shadow: none; }
 
 .reveal .slides > section,
@@ -131,7 +131,7 @@ body {
   padding: 5px;
   font-style: italic;
   background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2); }
 
 .reveal blockquote p:first-child,
 .reveal blockquote p:last-child {
@@ -206,20 +206,20 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #6BB884;
   text-decoration: none;
   -webkit-transition: color 0.15s ease;
   -moz-transition: color 0.15s ease;
   transition: color 0.15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #6BB884;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #068de9; }
+  background: #6BB884; }
 
 /*********************************************
  * IMAGES
@@ -241,7 +241,7 @@ body {
 
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
-  border-color: #42affa;
+  border-color: #C26B49;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
@@ -249,31 +249,31 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #42affa; }
+  border-right-color: #C26B49; }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #42affa; }
+  border-left-color: #C26B49; }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #42affa; }
+  border-bottom-color: #C26B49; }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #42affa; }
+  border-top-color: #F8AD42; }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #8dcffc; }
+  border-right-color: #F8AD42; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #8dcffc; }
+  border-left-color: #F8AD42; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #8dcffc; }
+  border-bottom-color: #F8AD42; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #8dcffc; }
+  border-top-color: #F8AD42; }
 
 /*********************************************
  * PROGRESS BAR
@@ -282,7 +282,7 @@ body {
   background: rgba(0, 0, 0, 0.2); }
 
 .reveal .progress span {
-  background: #edaf1f;
+  background: #F8AD42;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
@@ -310,13 +310,13 @@ html.topbanner body {
 }
 
 html.rightbanner {
-  background-image: linear-gradient(to top, #7f1111, #FF1417);
+  background-image: linear-gradient(to top, #C26B49, #F8AD42);
   font-family: "Montserrat-Light";
 }
 
 
 .slide-background {
-  background-image: linear-gradient(to top, #7f1111, #FF1417);
+  background-image: linear-gradient(to top, #313741, #657586);
 }
 
 /* main text */
@@ -336,7 +336,7 @@ html.rightbanner {
   padding-bottom: 0.1em; }
 
 .slides h3 {
-  background-color: #FF4C4C;
+  background-color: #C26B49;
   color: white;
   text-align: left;
   padding-left: 4%;
@@ -383,7 +383,7 @@ html.intro .footer {
 }
 
 html.picture .slide-background{
-  background-image: linear-gradient(to top, #FFFFFF, #FFFFFF);
+  background-image: linear-gradient(to top, #313741, #77849a);
 }
 
 html.picture .slides section h1 {
@@ -398,7 +398,7 @@ html.code h3 {
 }
 
 html.demo .slide-background{
-  background-image: linear-gradient(to top, #330707, #330707);
+  background-image: linear-gradient(to top, #313741, #77849a);
 }
 
 html.demo .slides{
@@ -413,12 +413,12 @@ html.bgpicture1 .slide-background{
 html.advices .slide-background{
   background-image: radial-gradient(
     circle at 75% 25%,
-    #FF4c4c,
-    #7f1111 40%
+    #78879c,
+    #313741 40%
   );
 }
 html.picture2 .slide-background{
-  background-image: linear-gradient(to top, #330707, #330707);
+  background-image: linear-gradient(to top, #313741, #330707);
 }
 
 .reveal .slide-number {
@@ -443,7 +443,7 @@ html.picture2 .slide-background{
   bottom: 0px;
   width: 100%;
   height: 62px;
-  background-image: url("../../bandeau_bas.png");
+  background-image: url("../../footer_v3_devoxx_france.png");
   background-position: center top; }
 
 .footer img {
@@ -479,19 +479,22 @@ html.light .footer p {
 
 
 .slides .main {
-  color: #7f1111; }
+
+  color: #313741;
+}
 
 .slides .secondary {
-  color: #FF1c4c; }
+  color: #C26B49; }
 
 .slides .third {
-  color: #FF1417; }
+  color: #6BB884; }
 
 .slides .alternate1 {
-  color: #DB1837; }
+  color: #FFFFFF; }
 
 .slides .alternate2 {
-  color: #cc0c0c; }
+  color: #F8AD42;
+}
 
 .reveal .copyright {
   position: absolute;
