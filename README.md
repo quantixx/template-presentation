@@ -45,6 +45,10 @@ If you want to publish your work :
 For main title, we used [Montserrat](https://www.google.com/fonts/specimen/Montserrat) 
 You can use Montserrat semi-bold for titles.
 
+### Images
+
+You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2019](https://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
+
 #### Main text
 
 For main text we use Open Sans, one of the Google Font, with variant Normal, 400
@@ -61,7 +65,7 @@ The main color this year is inspired from our logos
 
 ![Banniere](https://dvxfrance.cdn.prismic.io/dvxfrance/bbdef0312eff3126eb5eb84d4676a9349cd7dc37_banniere_devoxx_france_horizontale_600_2019.png)
 
-[See on Colors.adobe.com](https://color.adobe.com/fr/cloud/aHRhttps://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
+[See on Colors.adobe.com](https://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
 
 The main Theme is based on the following colors :
 
