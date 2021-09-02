@@ -66,6 +66,14 @@ You can use this link for Montserrat
 
 [See on Colors.adobe.com](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
 
+The main color this year is inspired from our logos
+
+![Banniere](https://dvxfrance.cdn.prismic.io/dvxfrance/bbdef0312eff3126eb5eb84d4676a9349cd7dc37_banniere_devoxx_france_horizontale_600_2019.png)
+
+2021 colors are based on 2019 
+
+[See on Colors.adobe.com](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
+
 The main Theme is based on the following colors :
 
   - black purple for background #313741
