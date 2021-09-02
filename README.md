@@ -1,3 +1,5 @@
+# Attention : les modèles ne sont pas encore prêts - 02/09/2021
+
 ![Logo](https://www.devoxx.fr/wp-content/uploads/2021/09/logo_devoxx_fr_2021_horiz_1000.png)
 
 # Devoxx FR 2021 
