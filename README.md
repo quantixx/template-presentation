@@ -66,11 +66,11 @@ You can use this link for Montserrat
 
 The main Theme is based on the following colors :
 
-  - dark black #1a1a1a
-  - blue #2C6CC9
-  - orange light #F5A179
-  - green apple #5DA60C
-  - light gray #E9EEF3
+  - black purple for background #313741
+  - green #06858c
+  - light green #54b587
+  - yellow #ffd03a
+  - orange medium #ee7844
 
 ### What is the Devoxx France 2021 Theme?  
 
