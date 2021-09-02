@@ -1,4 +1,8 @@
-# Attention : les modèles ne sont pas encore prêts - 02/09/2021
+# Attention : nous avons besoin d'aide pour préparer les templates
+
+Actuellement, seul le modèle Keynote 8.3 pour Mac est disponible, nous allons générer rapidement une version PowerPoint.
+
+Nous aimerions une version Google Slides, Reveal.js et OpenOffice. Si vous voulez proposer quelque chose, merci de suivre les recommandations de couleurs, de fonts, d'image ci-dessous : 
 
 ![Logo](https://www.devoxx.fr/wp-content/uploads/2021/09/logo_devoxx_fr_2021_horiz_1000.png)
 
