@@ -1,4 +1,8 @@
-![Logo](https://dvxfrance.cdn.prismic.io/dvxfrance/2ef0eb5da10bd97bf400ddc2100f75efbf7e2095_banniere_devoxx_fr_carre_2019_400.png)
+![Logo](https://www.devoxx.fr/wp-content/uploads/2021/09/logo_devoxx_fr_2021_horiz_1000.png)
+
+# Devoxx FR 2021 
+
+This is the branch for Devoxx France 2021
 
 # README #
 
@@ -8,13 +12,6 @@ This is an open repository for Devoxx France template.
 
 This repository contains various templates for Devoxx France. It's not a closed repository, you can also contribute and propose your presentation.
 Each year, the master branch contains the latest version, for the next conference.
-
-### What is Devoxx France?
-
-[Devoxx France](https://www.devoxx.fr) is one of the biggest conference for software developers, in Paris.
-Created in 2012, Devoxx France conference takes place at the Palais des Congrès, Paris, in April.
-
-If you want to submit a talk, and try to be selected as a speaker: the call for paper is usuall open from december to february.
 
 ### What's include? ####
 
@@ -36,7 +33,7 @@ If you want to publish your work :
   - create a pull request 
   - submit your PR and send me an email
 
-### Devoxx France 2019 Fonts and Colors
+### Devoxx France 2021 Fonts and Colors
 
 ### Fonts
 
@@ -45,9 +42,13 @@ If you want to publish your work :
 For main title, we used [Montserrat](https://www.google.com/fonts/specimen/Montserrat) 
 You can use Montserrat semi-bold for titles.
 
+### Logos for Devoxx France
+
+See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logos-devoxx-france-2021/)
+
 ### Images
 
-You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2019](https://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
+You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2021](https://color.adobe.com/fr/CV%202021-color-theme-16703583)
 
 #### Main text
 
@@ -61,23 +62,19 @@ You can use this link for Montserrat
 
 #### Color chart
 
-The main color this year is inspired from our logos
-
-![Banniere](https://dvxfrance.cdn.prismic.io/dvxfrance/bbdef0312eff3126eb5eb84d4676a9349cd7dc37_banniere_devoxx_france_horizontale_600_2019.png)
-
-[See on Colors.adobe.com](https://color.adobe.com/fr/Mon-th%C3%A8me-Color-color-theme-12221805/?)
+[See on Colors.adobe.com](https://color.adobe.com/fr/CV%202021-color-theme-16703583)
 
 The main Theme is based on the following colors :
 
-  - dark black #313741
-  - white #ffffff
-  - green lemon #6BB884
-  - back brown #C26B49
-  - accent yellow #f8ad42 
+  - black purple for background #313741
+  - green #06858c
+  - light green #54b587
+  - yellow #ffd03a
+  - orange medium #ee7844
 
-### What is the Devoxx France 2019 Theme?  
+### What is the Devoxx France 2021 Theme?  
 
-The logo was created by Nicolas Martignole. As our main theme for 2019 is "Happiness at work" I decided to represent lines of energy.
+The theme for 2021 is "happy to be all together"
 
 ### What is the recommended format for the templates? 
 
