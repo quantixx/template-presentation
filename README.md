@@ -48,7 +48,7 @@ See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logo
 
 ### Images
 
-You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2021](https://color.adobe.com/fr/CV%202021-color-theme-16703583)
+You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2021](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
 
 #### Main text
 
@@ -62,7 +62,7 @@ You can use this link for Montserrat
 
 #### Color chart
 
-[See on Colors.adobe.com](https://color.adobe.com/fr/CV%202021-color-theme-16703583)
+[See on Colors.adobe.com](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
 
 The main Theme is based on the following colors :
 
