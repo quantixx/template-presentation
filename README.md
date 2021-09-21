@@ -2,6 +2,10 @@
 
 Actuellement, seul les modèles Keynote 8.3 pour Mac ainsi que Microsoft Powerpoint sont disponibles pour Devoxx FR 2021.
 
+Merci aux contributeurs : 
+- Laurent Grangeau pour Powerpoint
+
+
 Nous aimerions une version Google Slides, Reveal.js et OpenOffice. Si vous voulez proposer quelque chose, merci de suivre les recommandations de couleurs, de fonts, d'image ci-dessous : 
 
 ![Logo](https://www.devoxx.fr/wp-content/uploads/2021/09/logo_devoxx_fr_2021_horiz_1000.png)
