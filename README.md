@@ -1,18 +1,6 @@
-# Attention : nous avons besoin d'aide pour préparer les templates
+# Devoxx France 2022 templates
 
-Actuellement, seul les modèles Keynote 8.3 pour Mac ainsi que Microsoft Powerpoint sont disponibles pour Devoxx FR 2021.
-
-Merci aux contributeurs : 
-- Laurent Grangeau pour Powerpoint
-
-
-Nous aimerions une version Google Slides, Reveal.js et OpenOffice. Si vous voulez proposer quelque chose, merci de suivre les recommandations de couleurs, de fonts, d'image ci-dessous : 
-
-![Logo](https://www.devoxx.fr/wp-content/uploads/2021/09/logo_devoxx_fr_2021_horiz_1000.png)
-
-# Devoxx FR 2021 
-
-This is the branch for Devoxx France 2021
+This content is in English. Feel free to contact the Devoxx team by email if needed. 
 
 # README #
 
@@ -23,15 +11,12 @@ This is an open repository for Devoxx France template.
 This repository contains various templates for Devoxx France. It's not a closed repository, you can also contribute and propose your presentation.
 Each year, the master branch contains the latest version, for the next conference.
 
+If your presentation is in French, make sure to use French on your slides.
+
 ### What's include? ####
 
 We offer the following supports : 
 - Keynote v6 for Mac
-- Powerpoint 
-- Keynote 09 older version
-- LibreOffice
-- Reveal.js
-- GitPitch
 
 ### How do I contribute? ###
 
@@ -41,54 +26,33 @@ If you want to publish your work :
 
   - add your name to the contributors.txt file
   - create a pull request 
-  - submit your PR and send me an email
+  - submit your PR and send an email to nicolas.martignole AT devoxx.fr 
 
-### Devoxx France 2021 Fonts and Colors
+### Devoxx France 2022 Fonts and Colors
 
 ### Fonts
+
+For main text we use [Open Sans](https://fonts.google.com/specimen/Open+Sans), one of the Google Font, with variant Normal, 400
 
 #### Titles
 
 For main title, we used [Montserrat](https://www.google.com/fonts/specimen/Montserrat) 
 You can use Montserrat semi-bold for titles.
 
-### Logos for Devoxx France
+### Generic logos for Devoxx France
 
-See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logos-devoxx-france-2021/)
+See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logos-et-bannieres-2022/)
 
 ### Images
 
-You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) using the [colors of Devoxx FR 2021](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
-
-#### Main text
-
-For main text we use Open Sans, one of the Google Font, with variant Normal, 400
-
-#### Direct Google font link
-
-You can use this link for Montserrat
-
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans' rel='stylesheet' type='text/css'>
+You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) 
 
 #### Color chart
 
-[See on Colors.adobe.com](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
+2022 colors : 
+[See on Colors.adobe.com](https://color.adobe.com/Devoxx-FR-2022-color-theme-19669317/)
 
-The main color this year is inspired from our logos
-
-![Banniere](https://dvxfrance.cdn.prismic.io/dvxfrance/bbdef0312eff3126eb5eb84d4676a9349cd7dc37_banniere_devoxx_france_horizontale_600_2019.png)
-
-2021 colors are based on 2019 
-
-[See on Colors.adobe.com](https://color.adobe.com/fr/Devoxx%20France%202019%20v2-color-theme-11526136)
-
-The main Theme is based on the following colors :
-
-  - black purple for background #313741
-  - green #06858c
-  - light green #54b587
-  - yellow #ffd03a
-  - orange medium #ee7844
+![Devoxx FR 2022 colors](images/2021/colors_devoxx_fr_2022.jpeg)
 
 ### What is the Devoxx France 2021 Theme?  
 
