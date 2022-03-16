@@ -52,11 +52,15 @@ You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgE
 2022 colors : 
 [See on Colors.adobe.com](https://color.adobe.com/Devoxx-FR-2022-color-theme-19669317/)
 
-![Devoxx FR 2022 colors](images/2021/colors_devoxx_fr_2022.jpeg)
+![Devoxx FR 2022 colors](images/2022/colors_devoxx_fr_2022.jpeg)
 
-### What is the Devoxx France 2021 Theme?  
+### What is the Devoxx France 2022 Theme?  
 
-The theme for 2021 is "happy to be all together"
+Devoxx France is celebrating its 10th anniversary in April. The theme for 2022 was created from the original theme
+from 2021, with more colors and more diversity. In 2022, Devoxx France is not only a Java conference. It's one of the 
+largest conference in Europe with 2900 attendees and 220 speakers during 3 days. 
+
+
 
 ### What is the recommended format for the templates? 
 
