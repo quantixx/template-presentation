@@ -13,10 +13,11 @@ Each year, the master branch contains the latest version, for the next conferenc
 
 If your presentation is in French, make sure to use French on your slides.
 
-### What's include? ####
+### What is include? ####
 
 We offer the following supports : 
-- Keynote v6 for Mac
+- Keynote v11 for Mac
+- Powerpoint
 
 ### How do I contribute? ###
 
@@ -43,16 +44,18 @@ You can use Montserrat semi-bold for titles.
 
 See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logos-et-bannieres-2022/)
 
-### Images
-
-You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave) 
 
 #### Color chart
 
 2022 colors : 
-[See on Colors.adobe.com](https://color.adobe.com/Devoxx-FR-2022-color-theme-19669317/)
+[See on Colors.adobe.com](https://color.adobe.com/Devoxx-FR-2022-v2-color-theme-19678356)
 
 ![Devoxx FR 2022 colors](images/2022/colors_devoxx_fr_2022.jpeg)
+
+### Images
+
+You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave)  
+using the colors from the theme
 
 ### What is the Devoxx France 2022 Theme?  
 
@@ -60,15 +63,11 @@ Devoxx France is celebrating its 10th anniversary in April. The theme for 2022 w
 from 2021, with more colors and more diversity. In 2022, Devoxx France is not only a Java conference. It's one of the 
 largest conference in Europe with 2900 attendees and 220 speakers during 3 days. 
 
-
-
 ### What is the recommended format for the templates? 
 
 Almost all presentations are recorded during Devoxx France. Your presentation will be available few weeks after Devoxx France on the [Youtube Devoxx channel](https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A) 
 
 We recommend that you keep the 16/9 ratio format for optimal display.
-
-This year we record your laptop video output directly and thus we won't need PDF or your slides after the presentation. Feel free to use any presentation technologies, but try to follow our guidelines and the color chart.
 
 Devoxx France are not mandatory. If you prefer to use your own presentation, do it.
 
