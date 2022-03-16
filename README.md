@@ -57,6 +57,8 @@ See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logo
 You can generate [Dualtone photos](https://duotone.shapefactory.co/?i=ELy8RcnCgEo&f=313741&t=6bb884&q=wave)  
 using the colors from the theme
 
+![Devoxx FR 2022](photos/paris_eiffel_tower.png)
+
 ### What is the Devoxx France 2022 Theme?  
 
 Devoxx France is celebrating its 10th anniversary in April. The theme for 2022 was created from the original theme
