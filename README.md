@@ -93,6 +93,7 @@ that was used is the following :
 
 ```The year is 2050, we see a view of Paris with modern public transportation, a steam-punk ballon and 2 drones,  as a Jules Vernes poster```
 
+![Devoxx FR 2023](https://github.com/quantixx/template-presentation/blob/master/images/2023/Backgrounds/image3.jpg?raw=true)
 
 ### What is the recommended format for the templates? 
 
