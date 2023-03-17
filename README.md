@@ -1,6 +1,8 @@
-# Devoxx France 2022 templates
+# Devoxx France 2023 templates
 
 This content is in English. Feel free to contact the Devoxx team by email if needed. 
+
+L'ensemble de la documentation est en Anglais afin de ne pas devoir maintenir 2 versions. Nous vous remercions pour votre compréhension.
 
 # README #
 
@@ -29,28 +31,53 @@ If you want to publish your work :
   - create a pull request 
   - submit your PR and send an email to nicolas.martignole AT devoxx.fr 
 
-### Devoxx France 2022 Fonts and Colors
+### Devoxx France 2023 Fonts and Colors
 
 ### Fonts
 
 For main text we use [Open Sans](https://fonts.google.com/specimen/Open+Sans), one of the Google Font, with variant Normal, 400
+We also use [Calibri](https://www.microsoft.com/en-us/download/details.aspx?id=10725) for some titles.
 
-#### Titles
+### Thematic fonts
 
-For main title, we used [Montserrat](https://www.google.com/fonts/specimen/Montserrat) 
-You can use Montserrat semi-bold for titles.
+New for 2023 : we designed a different theme for each Devoxx France track. Feel free to use this theme.
+It is not mandatory. 
 
-### Generic logos for Devoxx France
+The extra fonts to use are all available under the [Fonts](https://github.com/quantixx/template-presentation/tree/master/Fonts) folder or can also be downladed from Google Fonts:
 
-See the list of logos [on the Devoxx France web site](https://www.devoxx.fr/logos-et-bannieres-2022/)
+ - Abril Fatface : https://bit.ly/3j90tm2
+ - Berkshire Swash : https://bit.ly/3kLEke4
+ - Big Shoulders Inline Display : https://bit.ly/40aX0nV
+ - Stick : https://bit.ly/3R8Xu9X
+ - Trochut : https://bit.ly/3WNEHlE
+ - Caesar Dressing : https://bit.ly/3je4s0L
+ - Bungee Hairline : https://bit.ly/40bYWMH
 
+(click on the Download family link for Google Fonts)
+
+
+### Images 
+
+Check the [Images]()
 
 #### Color chart
 
-2022 colors : 
-[See on Colors.adobe.com](https://color.adobe.com/Devoxx-FR-2022-v2-color-theme-19678356)
+All colors are documented inside the templates.
 
-![Devoxx FR 2022 colors](images/2022/colors_devoxx_fr_2022.jpeg)
+Main title color
+#E2A86E
+
+Main Highlight color
+#F88224
+
+Default text color
+#FFFFFF
+
+ALT TEXT
+#E9E2DB
+
+ALT GREY
+#E9E2B
 
 ### Images
 
