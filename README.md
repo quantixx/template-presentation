@@ -58,7 +58,7 @@ The extra fonts to use are all available under the [Fonts](https://github.com/qu
 
 ### Images 
 
-Check the [Images]()
+Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/2023)
 
 #### Color chart
 
