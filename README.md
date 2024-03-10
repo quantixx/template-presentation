@@ -4,11 +4,10 @@ This content is in English. Feel free to contact the Devoxx team by email if nee
 
 L'ensemble de la documentation est en Anglais afin de ne pas devoir maintenir 2 versions. Nous vous remercions pour votre compréhension.
 
-# README #
+# Read the PDF guide first
 
-This is an open repository for Devoxx France template.
-
-Please 
+Please read [the Devoxx FR 2024 PDF guide](https://github.com/quantixx/template-presentation/blob/master/DEVOXXFRANCE_TEMPLATES_GUIDE_2024_V1.pdf).
+This PDF is a user-guide, for slides and presentation design. 
 
 ### What is this repository for? ###
 
