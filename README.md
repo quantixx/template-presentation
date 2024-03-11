@@ -30,7 +30,13 @@ If you want to publish your work :
 
   - add your name to the contributors.txt file
   - create a pull request 
-  - submit your PR and send an email to nicolas.martignole AT devoxx.fr 
+  - submit your PR and send an email to nicolas.martignole AT devoxx.fr
+
+### I want to report an error - I have a question
+
+You can either use the [Issues] and/or contact the Program Committee by email : program@devoxx.fr
+
+Make sure to explain who you are, what kind of format you are presenting, and give a bit of context to help the team.
 
 ### Devoxx France 2024 Theme
 
@@ -66,7 +72,8 @@ is compliant with our Code of Conduct.
 
 Thanks
 
-Nicolas Martignole
-nicolas.martignole@devoxx.fr
+The Program Committe
+program@devoxx.fr
+
 
 
