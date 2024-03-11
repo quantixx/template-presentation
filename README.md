@@ -34,7 +34,7 @@ If you want to publish your work :
 
 ### I want to report an error - I have a question
 
-You can either use the [Issues] and/or contact the Program Committee by email : program@devoxx.fr
+You can either use the [Issues](https://github.com/quantixx/template-presentation/issues) and/or contact the Program Committee by email : program@devoxx.fr
 
 Make sure to explain who you are, what kind of format you are presenting, and give a bit of context to help the team.
 
