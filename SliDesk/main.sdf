@@ -1,0 +1,35 @@
+/::
+add_styles: devoxx2k24/theme.css
+add_scripts: devoxx2k24/theme.js
+::/
+
+## .[main-slide]
+
+# Title Devoxx 2024
+
+## The Title .[title-slide]
+
+<p class="subtitle">Sub Title</p>
+
+<div class="content">
+
+JON SNOW &<br />
+BENDER
+
+**BOSTON DYNAMICS**
+
+</div>
+
+<div class="left-text"><p>Warmup</p></div>
+
+## .[no-title-slide]
+
+<div class="left-text"><p>Code</p></div>
+
+<div class="content">
+
+This slide has no title
+
+</div>
+
+## Thanks .[thanks-slide]
