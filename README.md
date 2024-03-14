@@ -45,7 +45,7 @@ Make sure to explain who you are, what kind of format you are presenting, and gi
 1. The "Title" font is [Pirulen](https://www.dafont.com/fr/pirulen.font)
 2. The main text is using [Open Sans](https://fonts.google.com/specimen/Open+Sans) 
 
-Please install the fonts provided under the folder [Fonts](https://github.com/quantixx/template-presentation/tree/master/Fonts)
+Please install the fonts provided under the folder [fonts](https://github.com/quantixx/template-presentation/tree/master/fonts)
 
 On Mac, if you have an issue with Pirulen not being recognized with Keynote, here is how to fix the issue :
 - start Keynote
