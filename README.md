@@ -57,7 +57,7 @@ More info : https://discussions.apple.com/thread/7988102?sortBy=best
 
 ### Images 
 
-We designed a lot of images that you can use. Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/2023)
+We designed a lot of images that you can use. Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/themes%202024/JPEG)
 
 ### What is the recommended format for the templates? 
 
