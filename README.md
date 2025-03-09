@@ -1,4 +1,4 @@
-# Devoxx France 2024 templates
+# Devoxx France 2025 templates
 
 This content is in English. Feel free to contact the Devoxx team by email if needed, our email is info@devoxx.fr 
 
