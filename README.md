@@ -1,3 +1,5 @@
+![Devoxx France 2025](https://github.com/quantixx/template-presentation/blob/master/images/2025/high%20definition/Devoxx2025.jpg?raw=true)
+
 # Devoxx France 2025 templates
 
 This content is in English. Feel free to contact the Devoxx team by email if needed, our email is info@devoxx.fr 
@@ -6,7 +8,7 @@ L'ensemble de la documentation est en Anglais afin de ne pas devoir maintenir 2 
 
 # Read the PDF guide first
 
-Please read [the Devoxx FR 2025 PDF guide](https://github.com/quantixx/template-presentation/blob/master/Keynote%20v13/devoxx_fr_2025_keynote.pdf).
+Please read [the Devoxx FR 2025 PDF guide](https://github.com/quantixx/template-presentation/blob/master/Keynote%20v13/devoxx_fr_2025_keynote.pdf?raw=true).
 This PDF is a user-guide, for slides and presentation design. 
 
 ### What is this repository for? ###
