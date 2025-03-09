@@ -6,7 +6,7 @@ L'ensemble de la documentation est en Anglais afin de ne pas devoir maintenir 2 
 
 # Read the PDF guide first
 
-Please read [the Devoxx FR 2024 PDF guide](https://github.com/quantixx/template-presentation/blob/master/DEVOXXFRANCE_TEMPLATES_GUIDE_2024_V1.pdf).
+Please read [the Devoxx FR 2025 PDF guide](https://github.com/quantixx/template-presentation/blob/master/Keynote%20v13/devoxx_fr_2025_keynote.pdf).
 This PDF is a user-guide, for slides and presentation design. 
 
 ### What is this repository for? ###
@@ -19,8 +19,9 @@ If your presentation is in French, make sure to use French on your slides.
 ### What is include? ####
 
 We offer the following supports : 
-- Powerpoint
-- Keynote v11 for Mac
+- Microsoft Powerpoint
+- Keynote v13 for Mac
+- [SliDesk](https://github.com/slidesk/slidesk)
 
 ### How do I contribute? ###
 
@@ -38,12 +39,13 @@ You can either use the [Issues](https://github.com/quantixx/template-presentatio
 
 Make sure to explain who you are, what kind of format you are presenting, and give a bit of context to help the team.
 
-### Devoxx France 2024 Theme
+### Devoxx France 2025 Theme
 
 ### Fonts
 
-1. The "Title" font is [Pirulen](https://www.dafont.com/fr/pirulen.font)
-2. The main text is using [Open Sans](https://fonts.google.com/specimen/Open+Sans) 
+1. The "Title" font is Old Maquine Caps
+2. The sub title/devoxx font is Pirulen
+3. The main text is using Poppins 
 
 Please install the fonts provided under the folder [fonts](https://github.com/quantixx/template-presentation/tree/master/fonts)
 
@@ -57,7 +59,7 @@ More info : https://discussions.apple.com/thread/7988102?sortBy=best
 
 ### Images 
 
-We designed a lot of images that you can use. Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/themes%202024/JPEG)
+We designed a lot of images that you can use. Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/2025) folder.
 
 ### What is the recommended format for the templates? 
 
@@ -68,11 +70,11 @@ Devoxx France are not mandatory. If you prefer to use your own presentation, do 
 However please insert a first slide with the Devoxx France theme, then keep your presentation as it is. Always remember : your presentation is recorded. 
 
 Last but not least, we also have a code of conduct on the Devoxx France web site. Make sure to check that your content 
-is compliant with our Code of Conduct.
+is compliant with our [Code of Conduct](https://www.devoxx.fr/code-de-conduite/).
 
 Thanks
 
-The Program Committe
+The Program Committee
 program@devoxx.fr
 
 
