@@ -1,36 +1,31 @@
 @font-face {
-  font-family: "Open Sans";
-  src: url(./fonts/Open_Sans/OpenSans.ttf);
+  font-family: "Old Maquine Caps";
+  src: url(./fonts/Old_Maquine_Caps/OldMaquineCaps.ttf);
 }
 
 @font-face {
-  font-family: "Open Sans Italic";
-  src: url(./fonts/Open_Sans/OpenSans-Italic.ttf);
+  font-family: "Poppins";
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Pirulen";
-  src: url(./fonts/pirulen/pirulen.otf);
+  src: url(./fonts/Pirulen/pirulen_rg.otf);
 }
 
 :root {
-  /* Devoxx 2024 colors */
-  --color-build-deploy: #0de07d;
-  --color-java: #f3de2c;
-  --color-architecture: #f88224;
-  --color-data-ai: #df57bc;
-  --color-server-size: #3083dc;
-  --color-security: #4e4187;
-  --color-people-culture: #8877d4;
-  --color-mind-geek: #3083dc;
-  --color-ux-ui: #c1b367;
-  --color-dev-language: #2fb496;
-
-  --color-bg-main: #0b0b0b;
+  /* Devoxx 2025 colors */
+  --color-bg-main: #3A3938;
   --color-bg-alternate: #151515;
-  --color-bg-highlight: #0de07d;
+  --color-bg-highlight: #78E23A;
   --color-bg-black: #000000;
-  /* /Devoxx 2024 colors */
+
+  --color-main-schema: #78E23A;
+  --color-main-white: #f5f5f5;
+  --color-alternate1: #8FAADC;
+  --color-alternate2: #F4B183;
+  --color-alternate3: #FFD966;
+  /* /Devoxx 2025 colors */
 
   --sd-heading1-size: 5vw;
   --sd-heading1-line-height: 1;
@@ -39,22 +34,28 @@
   --sd-text-size: 2.2vw;
   --sd-text-line-height: 1.2;
 
-  --sd-background-color: var(--color-bg-black);
+  --sd-background-color: var(--color-bg-main);
   /* change with your devoxx theme color */
-  --sd-primary-color: var(--color-java);
+  --sd-primary-color: var(--color-main-schema);
   --sd-heading-color: var(--sd-primary-color);
   --sd-text-color: #ffffff;
-  font-family: "Open Sans";
+  font-family: "Poppins";
 }
 
 i,
 .i {
-  font-family: "Open Sans Italic";
+  font-family: "Poppins";
+}
+
+
+em{
+  color: var(--color-alternate2);
 }
 
 h1,
 h2 {
-  font-family: "Pirulen";
+  font-family: "Old Maquine Caps";
+  line-height: normal;
 }
 
 .sd-slide {
@@ -73,10 +74,10 @@ h2 {
   left: 0;
 }
 
-/* stamp Devoxx 2024 */
+/* stamp Devoxx 2025 */
 .stamp {
   position: absolute;
-  background-color: var(--color-bg-black);
+  background-color: var(--color-bg-alternate);
   color: white;
   top: 0;
   right: 0;
@@ -92,7 +93,7 @@ h2 {
 /* main slide */
 
 .main-slide {
-  background-image: url(images/DevoxxFR2024_0022.jpg);
+  background-image: url(images/dvx_fr_main_01.jpg);
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,7 +118,7 @@ h2 {
 /* title slide */
 
 .title-slide .subtitle {
-  font-family: Pirulen;
+  font-family: "Poppins";
 }
 
 .title-slide .subtitle::before {
@@ -143,6 +144,10 @@ h2 {
 .title-slide .left-text::before {
   content: "";
   background-color: var(--sd-primary-color);
+  background-image: url(images/feuilles_devoxx.jpg);
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: -10px;
   left: 0;
@@ -158,16 +163,18 @@ h2 {
   margin: 0;
   left: -70px;
   bottom: 130px;
-  color: var(--color-bg-black);
+  color: var(--color-main-schema);
 }
 
 .title-slide .title {
   flex-grow: 1;
+  font-family: "Old Maquine Caps";
+  color: var(--color-main-white);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding-right: 10vw;
+  padding-left: 12vw;
 }
 
 .title-slide .title .subtitle {
@@ -210,6 +217,10 @@ h2 {
 .no-title-slide .left-text::before {
   content: "";
   background-color: var(--sd-primary-color);
+  background-image: url(images/feuilles_devoxx.jpg);
+  background-position: bottom right;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: -10px;
   left: 0;
@@ -225,7 +236,7 @@ h2 {
   margin: 0;
   left: -30px;
   bottom: 130px;
-  color: var(--color-bg-black);
+  color: var(--color-main-schema);
 }
 
 .no-title-slide .content {
@@ -244,10 +255,80 @@ h2 {
 
 /* / no title slide */
 
+/* simple slide */
+
+.simple-slide {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.simple-slide > div {
+  height: 100%;
+}
+
+.simple-slide .left-text {
+  position: relative;
+}
+
+.simple-slide .left-text::before {
+  content: "";
+  background-color: var(--sd-primary-color);
+  background-image: url(images/feuilles_devoxx.jpg);
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 200%;
+  // transform: rotate(-8deg);
+}
+
+.simple-slide .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 3vw;
+  padding-right: 3vw;
+  padding-left: 12vw;
+}
+
+.simple-slide .content li::marker {
+  list-style-type: disc;
+  color: var(--color-main-schema);
+}
+
+.simple-slide .content .title {
+  font-family: "Old Maquine Caps";
+  color: var(--color-main-schema);
+  font-size: larger;
+}
+
+sub::before {
+  content: "/";
+  margin-right: 1em;
+  color: var(--color-alternate2);
+}
+
+.simple-slide .content .title sub {
+  font-size: large;
+  color: var(--color-main-white);
+}
+
+.simple-slide .content p {
+  text-align: left;
+  margin: 1vw 0;
+}
+
+/* / title slide */
+
 /* thanks slide */
 
 .thanks-slide {
-  background-image: url(images/DevoxxFR2024_0022.jpg);
+  background-image: url(images/dvx_fr_2025_microphone_jungle.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;

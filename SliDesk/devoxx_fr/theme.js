@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   [...document.querySelectorAll(".sd-slide")].forEach((el) => {
     const divEl = document.createElement("footer");
     divEl.classList.add("stamp");
-    divEl.innerHTML = `Devox<span>x</span> France 2024`;
+    divEl.innerHTML = `Devox<span>x</span> France 2025`;
     el.appendChild(divEl);
   });
 });

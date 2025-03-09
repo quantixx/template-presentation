@@ -1,15 +1,15 @@
 /::
-add_styles: devoxx2k24/theme.css
-add_scripts: devoxx2k24/theme.js
+add_styles: devoxx_fr/theme.css
+add_scripts: devoxx_fr/theme.js
 ::/
 
 ## .[main-slide]
 
-# Title Devoxx 2024
+# Title Devoxx 2025
 
-## The Title .[title-slide]
+## Welcome to my awesome presentation .[title-slide]
 
-<p class="subtitle">Sub Title</p>
+<p class="subtitle">A talk about funny things</p>
 
 <div class="content">
 
@@ -21,6 +21,32 @@ BENDER
 </div>
 
 <div class="left-text"><p>Warmup</p></div>
+
+## .[simple-slide]
+
+<div class="left-text"></div>
+
+<div class="content">
+
+<div class="title">
+<h1>Some main title <sub>and some subtitle</sub></h1>
+</div>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</P>
+<p>Sample list</p>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+
+<p>Some <strong>Strong</strong> text and some <em>emphasis</em> to test the styles</p>
+
+</div>
+
 
 ## .[no-title-slide]
 
