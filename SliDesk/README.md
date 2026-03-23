@@ -8,6 +8,8 @@ This is a template for [SliDesk](https://github.com/slidesk/slidesk) presentatio
 
 See the [SliDesk Doc](https://slidesk.github.io/slidesk-doc/docs/intro/) for other platforms
 
+Go to the Slidesk folder, then just type-in "slidesk" and open a local web browser.
+
 ## Content
 
 In this folder you can find the `main.sdf` file to start your presentation with differents templates.
