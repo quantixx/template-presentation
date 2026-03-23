@@ -1,6 +1,6 @@
-![Devoxx France 2025](https://github.com/quantixx/template-presentation/blob/master/images/2025/high%20definition/Devoxx2025.jpg?raw=true)
+![Devoxx France 2026](https://github.com/quantixx/template-presentation/blob/master/images/2026/banner_web/web_banner_02_devoxx_fr_2026.png?raw=true)
 
-# Devoxx France 2025 templates
+# Devoxx France 2026 templates
 
 This content is in English. Feel free to contact the Devoxx team by email if needed, our email is info@devoxx.fr 
 
@@ -8,10 +8,12 @@ L'ensemble de la documentation est en Anglais afin de ne pas devoir maintenir 2 
 
 # Read the PDF guide first
 
-Please read [the Devoxx FR 2025 PDF guide](https://github.com/quantixx/template-presentation/blob/master/Keynote%20v13/devoxx_fr_2025_keynote.pdf).
-This PDF is a user-guide, for slides and presentation design. 
+Please read [the Devoxx FR 2026 PDF guide](https://github.com/quantixx/template-presentation/blob/master/READ_THIS_DevoxxFR_2026_theme.pdf).
+This PDF is a user guide for slides and presentation design. 
 
-### What is this repository for? ###
+There are a lot of ideas you can use for your design.
+
+### What is this repository for? 
 
 This repository contains various templates for Devoxx France. It's not a closed repository, you can also contribute and propose your presentation.
 Each year, the master branch contains the latest version, for the next conference.
@@ -24,16 +26,7 @@ We offer the following supports :
 - Microsoft Powerpoint
 - Keynote v13 for Mac
 - [SliDesk](https://github.com/slidesk/slidesk)
-
-### How do I contribute? ###
-
-If you want to create your own Devoxx France Theme, we'd like that you use our guidelines, fonts and logo so that we can offer a consolidated experience to our attendees.
-
-If you want to publish your work : 
-
-  - add your name to the contributors.txt file
-  - create a pull request 
-  - submit your PR and send an email to nicolas.martignole AT devoxx.fr
+- For Google slides you can import the PPT and create your own Google Slides version
 
 ### I want to report an error - I have a question
 
@@ -41,13 +34,18 @@ You can either use the [Issues](https://github.com/quantixx/template-presentatio
 
 Make sure to explain who you are, what kind of format you are presenting, and give a bit of context to help the team.
 
-### Devoxx France 2025 Theme
+### Devoxx France 2026 Theme
+
+This year, the spirit is around the idea of "Happy AI" : when the AI is doing good things, with robots, in the spirit of Fallout or "Asteroid City" from [Wes Anderson](imdb.com/name/nm0027572/)
+
 
 ### Fonts
 
-1. The "Title" font is Old Maquine Caps
-2. The sub title/devoxx font is Pirulen
-3. The main text is using Poppins 
+Make sure to install all fonts that are bundled in the "fonts" folder.
+
+1. The "Title" font is "Pirulen rg" 
+2. The subtitle and secondary titles are using "Conthrax"
+2. The content font is "Open Sans" 
 
 Please install the fonts provided under the folder [fonts](https://github.com/quantixx/template-presentation/tree/master/fonts)
 
@@ -59,17 +57,41 @@ On Mac, if you have an issue with Pirulen not being recognized with Keynote, her
 
 More info : https://discussions.apple.com/thread/7988102?sortBy=best
 
+### Colors
+
+Main Title color #e7b127
+Main Highlight color #EA7e14
+Text color #FFFFFF
+
+Banner Color #E7B127
+Highlight Color #EA7E14
+Text #FFFFFF
+
+## Background colors
+
+Main yellow #E7B127
+Orange Devoxx #EA7E14
+
+Green #609689
+Alternate Green #9bC1B8
+Dark Green #304936
+
+Alternate color pink #FDC7CF
+Alternate cyan #DAE3F3
+Alternate yellow #FFD966
+
 ### Images 
 
-We designed a lot of images that you can use. Check the [Images](https://github.com/quantixx/template-presentation/tree/master/images/2025) folder.
+We designed many images you can use. Check the [Images 2026](https://github.com/quantixx/template-presentation/tree/master/images/2026 folder.
 
 ### What is the recommended format for the templates? 
 
 Almost all presentations are recorded during Devoxx France. Your presentation will be available few weeks after Devoxx France on the [Youtube Devoxx channel](https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A) 
 
-We recommend that you keep the **16/9** ratio format for optimal display.
-Devoxx France are not mandatory. If you prefer to use your own presentation, do it.
-However please insert a first slide with the Devoxx France theme, then keep your presentation as it is. Always remember : your presentation is recorded. 
+We recommend keeping the **16/9** aspect ratio for optimal display.
+Devoxx France template is not mandatory. If you prefer to use your own presentation, do it.
+However, please insert a first slide with the Devoxx France theme, then keep your presentation as it is. 
+Always remember : your presentation is recorded. 
 
 Last but not least, we also have a code of conduct on the Devoxx France web site. Make sure to check that your content 
 is compliant with our [Code of Conduct](https://www.devoxx.fr/code-de-conduite/).
@@ -77,7 +99,7 @@ is compliant with our [Code of Conduct](https://www.devoxx.fr/code-de-conduite/)
 Thanks
 
 The Program Committee
-program@devoxx.fr
+cfp@devoxx.fr 
 
-
-
+The Devoxx France team
+info@devoxx.fr 

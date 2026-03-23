@@ -1,16 +1,21 @@
 @font-face {
-  font-family: "Old Maquine Caps";
-  src: url(./fonts/Old_Maquine_Caps/OldMaquineCaps.ttf);
+  font-family: "Open Sans";
+  src: url(./fonts/open_sans/OpenSans.ttf);
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+  src: url(./fonts/poppins/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Pirulen";
-  src: url(./fonts/Pirulen/pirulen_rg.otf);
+  src: url(./fonts/pirulen/pirulen.otf);
+}
+
+@font-face {
+  font-family: "Conthrax";
+  src: url(./fonts/conthrax/Conthrax-SemiBold.otf);
 }
 
 :root {
@@ -39,12 +44,12 @@
   --sd-primary-color: var(--color-main-schema);
   --sd-heading-color: var(--sd-primary-color);
   --sd-text-color: #ffffff;
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 
 i,
 .i {
-  font-family: "Poppins";
+  font-family: "Open Sans";
 }
 
 
@@ -54,7 +59,7 @@ em{
 
 h1,
 h2 {
-  font-family: "Old Maquine Caps";
+  font-family: "Conthrax";
   line-height: normal;
 }
 
