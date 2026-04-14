@@ -20,6 +20,47 @@ Each year, the master branch contains the latest version, for the next conferenc
 
 If your presentation is in French, make sure to use French on your slides.
 
+### Getting started — Git LFS required
+
+This repository uses **[Git Large File Storage (LFS)](https://git-lfs.com)** to manage binary assets (slides, fonts, images, PDFs). Without it, those files will appear as small text pointer files and won't open correctly.
+
+**Install Git LFS before cloning:**
+
+```bash
+# macOS
+brew install git-lfs
+
+# Linux (Debian/Ubuntu)
+sudo apt install git-lfs
+
+# Windows — download the installer from https://git-lfs.com
+```
+
+**Then enable it once for your Git installation:**
+
+```bash
+git lfs install
+```
+
+**Clone and fetch all assets:**
+
+```bash
+git clone https://github.com/quantixx/template-presentation.git
+# LFS files are downloaded automatically on clone.
+# If you cloned before installing LFS, run:
+git lfs pull
+```
+
+**File types tracked by LFS** in this repository:
+
+| Extension | Content |
+|-----------|---------|
+| `.pptx` | PowerPoint template |
+| `.key` | Keynote template |
+| `.pdf` | PDF guide and logo exports |
+| `.png` / `.jpg` | Images and logos |
+| `.otf` / `.ttf` | Font files |
+
 ### What is include? ####
 
 We offer the following supports : 
